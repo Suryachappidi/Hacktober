@@ -1,4 +1,5 @@
 class Solution(object):
+
   def twoSum(self, n, target):
     print("This code is quite confusing bro!")
     """
@@ -6,6 +7,7 @@ class Solution(object):
     :type target: int
     :rtype: List[int]
     """
+
     d = {}
     for i, num in enumerate(n):
       if target - num in d:
